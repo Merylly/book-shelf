@@ -1,7 +1,7 @@
 .seller-section {
   padding-top: 40px;
-  max-width: 335px;
-  min-width: 280px;
+  /* max-width: 335px;
+  min-width: 280px; */
 }
 
 .section-title {
@@ -93,7 +93,7 @@
 @media only screen and (min-width: 768px) {
   .seller-section {
     padding-top: 100px;
-    max-width: 704px;
+    /* max-width: 704px; */
   }
 
   .section-title {
@@ -128,8 +128,8 @@
 @media only screen and (min-width: 1440px) {
   .seller-section {
     padding-top: 40px;
-    max-width: 996px;
-    min-width: 996px;
+    max-width: 1044px;
+    min-width: 1044px;
   }
 
   .sellers-category-list {
@@ -142,6 +142,7 @@
 
   .sellers-item {
     padding-bottom: 32px;
+    flex-basis: calc((100% - 96px) / 5);
   }
 
   .book-image-wrapper {
